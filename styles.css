@@ -1,5 +1,5 @@
 body {
-    font-family: 'Figtree';
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     max-height: 100vh;
@@ -22,6 +22,7 @@ a {
 
 .subheader img {
     border-radius: 15px;
+    box-shadow: 0 0 2px 0;
 }
 
 .header {
@@ -29,13 +30,14 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(103, 124, 70);
+    background: linear-gradient(rgb(45, 56, 27), antiquewhite);
     margin-top: 0;
+    padding-bottom: 50px;
 }
 
 .subheader {
     display: flex;
-    background-color: antiquewhite;
+    background: linear-gradient(antiquewhite, white) ;
     padding: 12px;
     justify-content: center;
     align-items: center;
@@ -76,12 +78,15 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(white, rgb(197, 138, 61));
+    padding-bottom: 14px;
 }
 
 .containinfo {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 14px;
     gap: 80px;
 }
 
@@ -102,6 +107,61 @@ a {
     color: rgb(41, 41, 41);
 }
 
+.footer {
+    background: linear-gradient( rgb(197, 138, 61), rgb(77, 50, 0));
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.newsletter {
+    background-color: bisque;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 14px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletter p {
+    max-width: 360px;
+}
+
+.buttonstack {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.buttonstack button {
+    background-color: transparent;
+    border-radius: 8px;
+    max-width: 180px;
+}
+
+.buttonstack a {
+    color: rgb(54, 23, 4);
+    font-weight: 600;
+}
+
+.buttonstack input {
+    max-width: 160px;
+    border-radius: 8px;
+    padding: 4px;
+ }
 .quote {
-    background-color: rgb(59, 36, 0);
+    max-width: 640px;
+    min-height: 180px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote span {
+    padding-left: 14px;
+    font-weight: bold;
 }
