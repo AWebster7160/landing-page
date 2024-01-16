@@ -1,0 +1,107 @@
+body {
+    font-family: 'Figtree';
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    margin: 0;
+}  
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 207, 143);
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.subheader img {
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 124, 70);
+    margin-top: 0;
+}
+
+.subheader {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 320px;
+    min-width: 260px;
+  
+}
+
+.welcome > button {
+    font-size: large;
+    padding: 6px 14px;
+    background-color: rgb(60, 68, 23);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: ;
+    
+}
+.welcome > h1 {
+    font-weight: bolder;
+}
+
+.welcome > p {
+    margin-top: -18px;
+    color: rgb(58, 58, 58);
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containinfo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.info .step {
+    flex-direction: column;
+    max-width: 150px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.step img {
+    border-radius: 100%;
+    box-shadow: 0 0 14px 2px;
+    margin-bottom: 10px;
+}
+
+.substep {
+    color: rgb(41, 41, 41);
+}
+
+.quote {
+    background-color: rgb(59, 36, 0);
+}
